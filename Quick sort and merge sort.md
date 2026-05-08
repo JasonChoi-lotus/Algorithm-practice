@@ -28,6 +28,7 @@ print("After sorting: ", quick_sort(my_list))
 ## What is Merge sort?
 a sorting method that works by halving an original array into two subarrays and merging them back together.
 
+
 ## Key features
 - **always** guarantees time complexity as `O(n * log n)`
 - preferred algorithm for linked lists
@@ -37,8 +38,9 @@ a sorting method that works by halving an original array into two subarrays and 
 ### Quick sort over Merge sort
 - When focusing on low spatial memory, Quick sort performs better than Merge sort.
 
+
 ### Merge sort over Quick sort
-- When focusing on stability or handling almost sorted array, Merge sort performs better than Quick sort.
+- When focusing on stability or handling almost sorted array, Merge sort performs better than Quick sort, avoiding the worst-case scenario ($O(n^2)$) of Quicksort
 
 
 
