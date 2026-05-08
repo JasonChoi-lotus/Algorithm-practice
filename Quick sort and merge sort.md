@@ -5,7 +5,7 @@ a sorting method that works by selecting a "pivot" element and partitioning the 
 
 ## key features
 - returns average time complexity as $O(n * log n)$
-- returns worst time complexity as $O(n**2)$
+- returns worst time complexity as $O(n^2)$
 - cache-efficient
 
 ``` python
