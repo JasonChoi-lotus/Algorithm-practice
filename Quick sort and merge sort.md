@@ -4,8 +4,8 @@
 a sorting method that works by selecting a "pivot" element and partitioning the other elements into two sub-arrays
 
 ## key features
-- returns average time complexity as `O(n * log n)`
-- returns worst time complexity as `O(n**2)`
+- returns average time complexity as $O(n * log n)$
+- returns worst time complexity as $O(n**2)$
 - cache-efficient
 
 ``` python
@@ -25,24 +25,24 @@ print("Before sorting: ", my_list)
 print("After sorting: ", quick_sort(my_list))
 ```
 
-`Note`: The following Python implementation uses list comprehension for readability. In a production environment, an in-place partition logic using index pointers is preferred for better memory efficiency.
+`Note:` The following Python implementation uses list comprehension for readability. In a production environment, an in-place partition logic using index pointers is preferred for better memory efficiency.
 
 ## What is Merge sort?
 a sorting method that works by halving an original array into two subarrays and merging them back together.
 
 
 ## Key features
-- **always** guarantees time complexity as `O(n * log n)`
+- **always** guarantees time complexity as $O(n * log n)$
 - preferred algorithm for linked lists
 
 ## When to use which 
 
-### Use Quicksort when:
+### Use Quick sort when:
 - Memory space is limited.
 - Sorting a standard array where cache locality significantly boosts performance.
 - Average performance is more important than the guaranteed worst-case.
 
-### Use Mergesort when:
+### Use Merge sort when:
 - Stability is required (maintaining the relative order of equal elements).
 - Dealing with Linked Lists (where sequential access is faster than random access).
 - You need a guaranteed $O(n \log n)$ even in the worst-case scenario (e.g., almost sorted or reverse-sorted data).
