@@ -25,6 +25,8 @@ print("Before sorting: ", my_list)
 print("After sorting: ", quick_sort(my_list))
 ```
 
+`Note`: The following Python implementation uses list comprehension for readability. In a production environment, an in-place partition logic using index pointers is preferred for better memory efficiency.
+
 ## What is Merge sort?
 a sorting method that works by halving an original array into two subarrays and merging them back together.
 
