@@ -32,6 +32,12 @@ a sorting method that works by halving an original array into two subarrays and 
 - **always** guarantees time complexity as `O(n * log n)`
 - preferred algorithm for linked lists
 
+## When to Use Which?
+
+### Quick sort over Merge sort
+- When focusing on low spatial memory and most of works, The function of Quick sort exceeds that of Merge sort.
+
+
 
 
 
