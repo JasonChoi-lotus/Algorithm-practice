@@ -33,14 +33,17 @@ a sorting method that works by halving an original array into two subarrays and 
 - **always** guarantees time complexity as `O(n * log n)`
 - preferred algorithm for linked lists
 
-## When to Use Which?
+## When to use which 
 
-### Quick sort over Merge sort
-- When focusing on low spatial memory, Quick sort performs better than Merge sort.
+### Use Quicksort when:
+- Memory space is limited.
+- Sorting a standard array where cache locality significantly boosts performance.
+- Average performance is more important than the guaranteed worst-case.
 
-
-### Merge sort over Quick sort
-- When focusing on stability or handling almost sorted array, Merge sort performs better than Quick sort, avoiding the worst-case scenario ($O(n^2)$) of Quicksort
+### Use Mergesort when:
+- Stability is required (maintaining the relative order of equal elements).
+- Dealing with Linked Lists (where sequential access is faster than random access).
+- You need a guaranteed $O(n \log n)$ even in the worst-case scenario (e.g., almost sorted or reverse-sorted data).
 
 
 
