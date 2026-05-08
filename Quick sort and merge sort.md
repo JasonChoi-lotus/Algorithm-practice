@@ -1,14 +1,14 @@
 # Various sorting method
 
 ## What is Quick sort?
--a sorting method that works by selecting a "pivot" element and partitioning the other elements into two sub-arrays
+a sorting method that works by selecting a "pivot" element and partitioning the other elements into two sub-arrays
 
 ## key features
--returns average time complexity as O(n * log n)
--returns worst time complexity as O(n^2)
--cache-efficient
+- returns average time complexity as `O(n * log n)`
+- returns worst time complexity as `O(n^2)`
+- cache-efficient
 
-'''
+''' python
 def quick_sort(arr):
     if len(arr)<2: return arr
     
@@ -26,11 +26,11 @@ print("After sorting: ", quick_sort(my_list))
 '''
 
 ## What is Merge sort?
--a sorting method that works by halving an original array into two subarrays and merging them back together.
+a sorting method that works by halving an original array into two subarrays and merging them back together.
 
 ## Key features
--always guarantees time complexity as O(n * log n)
--preferred algorithm for linked lists
+- always guarantees time complexity as `O(n * log n)`
+- preferred algorithm for linked lists
 
 
 
