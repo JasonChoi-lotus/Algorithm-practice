@@ -1,14 +1,14 @@
-#What is Trie?
+# What is Trie?
 
 
 
 
-#Uses of Trie
+# Uses of Trie
 
 
 
 
-#Why `Class` is optimal for implemeting a Trie
+# Why `Class` is optimal for implemeting a Trie
 
 
 
